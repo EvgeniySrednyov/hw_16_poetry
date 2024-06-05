@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "hw-16-poetry"
+version = "0.1.0"
+description = ""
+authors = ["EvgeniySrednev <srednevei89@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pytest = "^8.2.2"
+selene = "2.0.0rc9"
+
+
+[tool.poetry.group.dev.dependencies]
+pylint = "3.2.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
